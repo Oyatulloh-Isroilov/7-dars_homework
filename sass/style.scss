@@ -53,6 +53,11 @@
                 line-height: 100%;
                 /* 16px */
         }
+
+        ul li a:hover {
+            transition: 1s;
+            color: #3e6e00;
+        }
 }
 
 .header__sites {
@@ -83,6 +88,8 @@
 }
 
 }
+
+// hero-container
 
 .main-bg-img {
     background-image: url(../images/hero-bg.png);
@@ -142,6 +149,14 @@
     padding: 22px 56px;
     border: none;
     }
+
+    button:hover {
+        transition: 1s;
+        background:#90550d;
+        box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+        padding: 22px 56px;
+
+    }
     
     .chiziqcha {
         display: flex;  
@@ -191,7 +206,50 @@ text-decoration: none;
 
 // direction-container
 
-.direction {
+.line {
+    margin-left: 55px;
+}
+
+.block {
+    gap: 200px;
+    display: flex;
+    gap: 29px;
+    strong {
+        color: var(--title-color);
+
+/* Заголовок_H5 */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+line-height: 100%; /* 24px */
+opacity: 0.5;
+    }
+
+    h4 {
+        display: flex;
+        color: var(--second-color);
+
+/* Заголовок_H5 */
+margin-top: 60px;
+margin-bottom: 30px;
+margin-left: 20px;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+    }
+    .block-1 {
+        display: block;
+    }
+    .block-2 {
+        display: block;
+    }
+    .block-3 {
+        display: block;
+    }
 }
 
 .direction-menu {
@@ -207,5 +265,211 @@ text-decoration: none;
     line-height: 125%; /* 57.5px */
     text-transform: uppercase;
     }
+}
 
+// wrap-container
+.wrap-bg {
+    background-color: var(--second-color);
+}
+.wrap-container {
+    .wrap-info {
+        h2 {
+            padding-top: 100px;
+            margin-bottom: 70px;
+            color: var(--white-color);
+
+/* заголовок_H2 */
+font-family: var(--raleway-font-family);
+font-size: 46px;
+font-style: normal; 
+font-weight: 600;
+line-height: 125%; /* 57.5px */
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+        }
+    }
+    .wrap {
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 94px;
+    }
+    
+    img {
+        display: flex;
+    }
+    
+    .wrap1-2-3 {
+    gap: 205px;
+    display: flex;
+    align-items: center;
+    strong {
+        display: flex;
+        text-align: center;
+    }
+    .wrap-1 {
+        display: block;
+        align-items: center;
+        color: var(--white-color);
+        opacity: 0.5;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+    }
+    .wrap-2 {
+        display: block;
+        align-items: center;
+        color: var(--white-color);
+        opacity: 0.5;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+    }
+    .wrap-3 {
+        display: block;
+        align-items: center;
+        color: var(--white-color);
+        opacity: 0.5;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+    }
+}
+
+    .wrap4-5-6 {
+        display: flex;
+        gap: 205px;
+        align-items: center;
+        strong {
+            display: flex;
+            align-items: center;
+            margin-right: 23px;
+        }
+
+        img {
+            margin-left: 10px;
+        }
+        .wrap-4 {
+            display: block;
+            color: var(--white-color);
+            opacity: 0.5;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+
+        }
+        .wrap-5 {
+            display: block;
+            color: var(--white-color);
+            opacity: 0.5;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+        }
+        .wrap-6 {
+            display: block;
+            color: var(--white-color);
+            opacity: 0.5;
+
+/* Заголовок_H5 (medium) */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+        }
+    }
+}
+
+.ukraina-container {
+    .uk-proekt {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 115px;
+        width: 815px;
+        color: var(--title-color);
+text-align: center;
+
+/* Заголовок_H3 */
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 46.8px */
+    }
+}
+
+.uk-info {
+    display: flex;
+    margin-left: 270px;
+    position: relative;
+
+    .uk-info1 {
+        display: flex;
+        p {
+            width: 370px;
+            height: 108px;
+        display: flex;
+        color: var(--title-color);
+        margin-right: 153px;
+
+/* text_18px (medium) */
+font-family: var(--raleway-font-family);
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+    }
+
+    img {
+        position: absolute;
+        right: 1200px;
+        bottom: 170px;
+    }
+}
+
+    .uk-info2 {
+        align-items: center;
+        display: flex;
+        p {
+            width: 370px;
+            height: 108px;
+        display: flex;
+        color: var(--title-color);
+
+/* text_18px (medium) */
+font-family: var(--raleway-font-family);
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+    }
+
+    img {
+        position: absolute;
+        left: 900px;
+        bottom: 30px;
+    }
+}
 }
